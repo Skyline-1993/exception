@@ -57,9 +57,14 @@ public class TestUnRuntimeException {
     }
 
     public static void main(String[] args) /*throws ParseException*/ {
-        solveUnRuntimeException1();
+//        solveUnRuntimeException1();
+
         // 非运行期异常(编译期异常)：如果一直使用throws抛出异常来解决异常，最终虚拟机会抛出异常对象，终止程序执行。
-        // solveUnRuntimeException2();
+        try {
+            solveUnRuntimeException2();
+        } catch (ParseException e) {
+            System.out.println("test");
+        }
         System.out.println("complete");
 
     }

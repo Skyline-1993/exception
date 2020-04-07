@@ -34,6 +34,7 @@
 
     <root level="info">
         <appender-ref ref="stdout"></appender-ref>
+        <appender-ref ref="rollingFile"></appender-ref>
     </root>
 
 </configuration>
