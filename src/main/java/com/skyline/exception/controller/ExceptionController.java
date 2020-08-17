@@ -42,9 +42,9 @@ public class ExceptionController {
 
     public void test() {
         System.out.println("分界线");
-        System.out.println(111111111);
-        System.out.println(222222);
     }
 
-
+    public void test2() {
+        System.out.println("333333333333");
+    }
 }
