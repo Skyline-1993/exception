@@ -38,4 +38,9 @@ public class ExceptionController {
         }
         return R.ok().put("data", user);
     }
+
+
+    public void test() {
+        System.out.println("分界线");
+    }
 }
