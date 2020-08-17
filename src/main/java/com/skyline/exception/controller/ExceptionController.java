@@ -47,4 +47,9 @@ public class ExceptionController {
     public void test2() {
         System.out.println("333333333333");
     }
+
+
+    public void test3() {
+        System.out.println("------------分界线-------------");
+    }
 }
