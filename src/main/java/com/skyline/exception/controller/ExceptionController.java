@@ -56,4 +56,8 @@ public class ExceptionController {
     public void test4() {
         System.out.println("aaaaaaaaaaaaa");
     }
+
+    public void test5() {
+        System.out.println("bbbbbbbbbbbbb");
+    }
 }
