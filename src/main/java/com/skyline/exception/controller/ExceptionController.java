@@ -52,4 +52,8 @@ public class ExceptionController {
     public void test3() {
         System.out.println("------------分界线-------------");
     }
+
+    public void test4() {
+        System.out.println("aaaaaaaaaaaaa");
+    }
 }
